@@ -1,6 +1,21 @@
 # kws-sign-language
 
 Senior design project titled "Keyword Search for Sign Language" for the Special Project (EE 491-492) courses offered by Boğaziçi University.
+We used the LSE_eSaude_UVIGO dataset, consisting of sign language videos signed by 10 individuals and partially annotated with 100 signs.
+We simulated the implementations of the papers corresponding to the top 3 submissions for multiple-shot supervised learning (MSSL) and one-shot
+learning and weak labels (OSLWL) tracks of the [2022 Sign Spotting Challenge at ECCV](https://chalearnlap.cvc.uab.cat/challenge/49/description/).
+For the project, we chose the OSLWL track and selected model #1 by th and the results were as follows:
+
+- Dataset: LSE_ESAUDE_UVIGO Spanish Sign Language Dataset
+   - 20 isolated sign videos for training (query videos)
+   - 607 test sign videos for evaluation
+- Methodology:
+   - Utilized OpenPose and MMPose for pose detection in query videos
+   - Estimated starting and ending frames of sign performed in query videos
+   - Constructed a graph for test video labeling using a graph construction algorithm
+- Performance:
+   - Average number of successfully predicted test videos: 360 out of 607
+   - Average F1 score: 0.595802
 
 
 
