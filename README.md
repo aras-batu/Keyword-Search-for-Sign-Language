@@ -1,4 +1,4 @@
-# kws-sign-language
+# Keyword-Search-for-Sign-Language
 
 Senior design project titled "Keyword Search for Sign Language" for the Special Project (EE 491-492) courses offered by Boğaziçi University.
 We used the LSE_eSaude_UVIGO dataset, consisting of sign language videos signed by 10 individuals and partially annotated with 100 signs.
